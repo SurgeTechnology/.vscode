@@ -36,13 +36,21 @@
   "typescript.tsdk": "./node_modules/typescript/lib",
   "editor.formatOnSave": true,
   "typescript.referencesCodeLens.enabled": true,
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "NOTE",
+    "MAYBE",
+    "WTF",
+    "DONTMERGE"
+  ],
   "todo-tree.highlights.customHighlight": {
-    "WTF": {
-      "foreground": "#FFFFFF",
-      "background": "#7700CC",
-      "iconColour": "#AA00FF",
-      "rulerColour": "#AA00FF",
-      "icon": "squirrel"
+    "TODO": {
+      "foreground": "#000000",
+      "background": "#FFFF00",
+      "iconColour": "#FFFF00",
+      "rulerColour": "#FFFF00",
+      "icon": "pin"
     },
     "FIXME": {
       "foreground": "#000000",
@@ -51,12 +59,12 @@
       "rulerColour": "#FF0000",
       "icon": "flame"
     },
-    "TODO": {
-      "foreground": "#000000",
-      "background": "#FFFF00",
-      "iconColour": "#FFFF00",
-      "rulerColour": "#FFFF00",
-      "icon": "pin"
+    "NOTE": {
+      "foreground": "#FFFFFF",
+      "background": "transparent",
+      "iconColour": "#FFFFFF",
+      "rulerColour": "#FFFFFF",
+      "icon": "note"
     },
     "MAYBE": {
       "foreground": "#000000",
@@ -65,12 +73,12 @@
       "rulerColour": "#0099FF",
       "icon": "beaker"
     },
-    "NOTE": {
+    "WTF": {
       "foreground": "#FFFFFF",
-      "background": "transparent",
-      "iconColour": "#FFFFFF",
-      "rulerColour": "#FFFFFF",
-      "icon": "note"
+      "background": "#7700CC",
+      "iconColour": "#AA00FF",
+      "rulerColour": "#AA00FF",
+      "icon": "squirrel"
     },
     "DONTMERGE": {
       "foreground": "#FF0000",
