@@ -89,5 +89,10 @@
     }
   },
   "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|/* |^)\\s*($TAGS)|^\\s*- \\[ \\])",
-  "todo-tree.tree.showCountsInTree": true
+  "todo-tree.tree.showCountsInTree": true,
+  // NOTE: These are my preferred settings, but they do not currently work when
+  // applied to a workspace. Feel free to copy/paste to your user settings
+  "material-icon-theme.folders.associations": {
+    "__generated__": "generator"
+  }
 }
